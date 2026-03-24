@@ -15,7 +15,7 @@ const experiences = [
     role: "Full Stack Software Engineer",
     date: "2024",
     description:
-      "Assisted in developing internal tools and APIs. Collaborated in an Agile team environment and contributed to building chatbots.",
+      "Assisted in developing internal tools and APIs. Creating web applications. Collaborated in an Agile team environment and contributed to building chatbots.",
   },
   {
     company: "Infoshift Inc.",
