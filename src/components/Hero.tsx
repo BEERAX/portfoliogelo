@@ -32,14 +32,14 @@ export default function Hero() {
         setCurrentLine(""); // reset for next line
         setLineIndex((prev) => prev + 1);
       }
-    }, 50);
+    }, 5);
 
     return () => clearInterval(interval);
   }, [lineIndex]);
 
   return (
-    <section className="flex justify-center items-center py-32 px-6 min-h-[60vh]">
-      <div className="bg-gray-900 border border-gray-800 rounded-xl p-10 font-mono text-green-400 text-center">
+    <section className="flex justify-center items-center py-32 px-6 min-h-[80vh] pt-60">
+      <div className="bg-gray-900 border border-gray-800 rounded-xl p-10 font-mono text-green-400 text-left max-w-2xl mx-auto">
         {/* Completed lines */}
         {displayedLines.map((line, i) => (
           <motion.div
@@ -82,7 +82,7 @@ export default function Hero() {
               className="border border-gray-700 px-6 py-3 rounded-lg cursor-pointer hover:scale-105 transition-transform"
               onClick={() => router.push("/experience")}
             >
-              Experience
+              Experiences
             </div>
             <div
               className="border border-gray-700 px-6 py-3 rounded-lg cursor-pointer hover:scale-105 transition-transform"
