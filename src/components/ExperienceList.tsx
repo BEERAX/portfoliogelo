@@ -25,7 +25,7 @@ const experiences = [
       "I developed web and mobile applications for various clients, adapting to different project requirements. I worked within Agile/Scrum methodologies to ensure efficient development, collaboration, and timely delivery of high-quality solutions.",
   },
   {
-    company: "Aesoft",
+    company: "Asceoft",
     role: "Frontend Software Engineer",
     date: "2022",
     description:
